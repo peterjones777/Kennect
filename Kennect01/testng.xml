@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite">
+  <test thread-count="1" name="Test">
+    <classes>
+      <class name="test_cases.Cost_calculator_verify_add_tests_05"/>
+      <class name="test_cases.Cost_calculator_verify_add_discounts_06"/>
+      <class name="test_cases.Login_valid_credentials_01"/>
+      <class name="test_cases.Dashboard_verify_sidepanel_tiles_function_03"/>
+      <class name="test_cases.Patients_add_primary_details_verify_General_details_button_07"/>
+      <class name="test_cases.Dashboard_verify_add_ToDo_04"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
